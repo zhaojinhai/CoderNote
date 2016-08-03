@@ -3,12 +3,11 @@ SQLServer
 ## 1. Sql操作
 ### 1.  ` select * from sys.objects where type='U'`  
 查询数据库里里所有的表.详见 <https://msdn.microsoft.com/en-us/library/ms190324.aspx>  
-type:   
-    ***
-    - **P**   存储过程
-    - **S** [System base table] 系统表
-    - **U** 表
-    - **V** 视图
+type:    
+ - **P**   存储过程
+ - **S** [System base table] 系统表
+ - **U** 表
+ - **V** 视图
 
 ### 2. ` select * from sys.columns where object_id=[object_id] `
 查看表的字段,【object_id】是sys.objects 中对应的表名 **_id_**  
