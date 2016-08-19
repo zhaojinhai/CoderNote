@@ -3,7 +3,7 @@
 >用户名:pi 密码:raspberry
 - ## 配置网络
 >sudo vi /ect/nectwork/interfaces 
-    
+```
     auto eth0
     iface eth0 inet static
         #Ip地址
@@ -14,17 +14,20 @@
         broadcast 192.168.0.255
         #网关
         gateway 192.168.1.254
-
+```
 - ## 配置Wifi
 >sudo vi/ect/network/interfaces
 
     iface wlan0 inet dhcp
 >sudo vi/etc/wpa_supplicant/wpa_supplicant.conf
-     
+```     
     network={
         ssid="wifi的名子"
         psk="连接密码"
     }
->重启无线网卡  
+```    
+>重启无线网卡 
+```
 sudo ifdown wlan0  
 sudo ifup wlan0
+```
