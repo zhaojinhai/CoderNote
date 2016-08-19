@@ -1,6 +1,6 @@
 # 树莓派3 B+学习笔记(Raspbian)
 - ##  默认用户名及密码 
-用户名:pi 密码:raspberry
+>用户名:pi 密码:raspberry
 - ## 配置网络
 >sudo vi /ect/nectwork/interfaces
     
