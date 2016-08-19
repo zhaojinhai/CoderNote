@@ -2,7 +2,7 @@
 - ##  默认用户名及密码 
 >用户名:pi 密码:raspberry
 - ## 配置网络
->sudo vi /ect/nectwork/interfaces
+>sudo vi /ect/nectwork/interfaces 
     
     auto eth0
     iface eth0 inet static
@@ -28,5 +28,3 @@
 >重启无线网卡  
 sudo ifdown wlan0  
 sudo ifup wlan0
-
-
