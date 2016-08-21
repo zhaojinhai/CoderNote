@@ -31,3 +31,5 @@
 sudo ifdown wlan0  
 sudo ifup wlan0
 ```
+* ## GPIO引脚定义
+![引脚](./img/Raspberry-Pi-GPIO-Layout-Model-B-Plus-313x1024.png)
