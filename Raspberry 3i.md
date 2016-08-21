@@ -31,5 +31,9 @@
 sudo ifdown wlan0  
 sudo ifup wlan0
 ```
-* ## GPIO引脚定义
+* ## GPIO
+ 1. 引脚定义
 ![引脚](./img/Raspberry-Pi-GPIO-Layout-Model-B-Plus-313x1024.png)
+ 2. NOdejs 使用GPIO
+ [jsgpio库地址](https://www.npmjs.com/package/pi-gpio)
+
